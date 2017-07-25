@@ -4,7 +4,7 @@
 
 set -e
 # Autoremove any junk
-yum install autoremove -y
+yum autoremove -y
 
 # Clean out docs
 rm -rf /usr/share/doc /usr/share/doc-base /usr/share/man /usr/share/locale /usr/share/zoneinfo
